@@ -4,7 +4,7 @@
   "description": "Projeto Node FICR/Accenture",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "teste": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,8 @@
   },
   "homepage": "https://github.com/LucasFICR/desafio-academia-node-ficr#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "express": "^4.17.1",
     "jest": "^25.1.0"
-  },
-  "scripts": {
-    "teste": "jest"
   }
 }
