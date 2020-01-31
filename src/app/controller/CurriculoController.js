@@ -1,8 +1,11 @@
-// // Requires (?)
+const tokenFB = require('./app/services/tokenFaceBook')
 
+
+class CurriculoController {
+
+}
 
 // //Class async (CurriculoController) com get das APIs
 
 
-// //export do arquivo
-// module.exports = new CurriculoController
+module.exports = new CurriculoController;

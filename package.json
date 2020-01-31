@@ -2,7 +2,7 @@
   "name": "desafio-academia-node-ficr",
   "version": "1.0.0",
   "description": "Projeto Node FICR/Accenture",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "dev": "nodemon src/server.js",
     "teste": "jest"
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/LucasFICR/desafio-academia-node-ficr.git"
   },
-  "author": "Lucas Alves / Git: LucasFICR",
+  "author": "Lucas Alves / Github: LucasFICR",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LucasFICR/desafio-academia-node-ficr/issues"
