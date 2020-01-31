@@ -4,6 +4,7 @@
   "description": "Projeto Node FICR/Accenture",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/server.js",
     "teste": "jest"
   },
   "repository": {
@@ -21,6 +22,7 @@
     "express": "^4.17.1",
     "fb": "^2.0.0",
     "fs": "0.0.1-security",
-    "jest": "^25.1.0"
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2"
   }
 }

@@ -1,9 +1,14 @@
-//routes
+const { Router } = require('express')
 
-app.get("/api/curriculo", function(req, res) {
-    res.render("OK...");
-  });
-  
-  app.get("/*", (req, res, next) => {
-    res.status(404).send("Erro 404, nada por aqui");
-  });
+// const CurriculoController = require('./app/CurriculoController');
+
+const app = Router()
+
+    app.get("/api/curriculo")
+    
+    app.get("/*", (req, res, next) => {
+    res.status(404).send("Nada aqui...")
+});
+
+
+module.exports = app;

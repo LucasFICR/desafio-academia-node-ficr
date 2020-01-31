@@ -10,7 +10,7 @@ class App {
     this.express.use(router)
   }
 ;}
-
+ //factory no lugar do middleware
 
 module.exports = new App().express
 

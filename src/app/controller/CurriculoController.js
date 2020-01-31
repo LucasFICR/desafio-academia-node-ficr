@@ -1,13 +1,8 @@
-const fs = require("fs");
-
-const CurriculoController = 
-
-function myFunction(p1, p2) {
-   return p1 * p2; 
-};
-
-    console.log(myFunction(4, 3));
+// // Requires (?)
 
 
+// //Class async (CurriculoController) com get das APIs
 
-module.exports = new CurriculoController
+
+// //export do arquivo
+// module.exports = new CurriculoController
