@@ -19,7 +19,10 @@
   "homepage": "https://github.com/LucasFICR/desafio-academia-node-ficr#readme",
   "dependencies": {
     "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
     "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
     "fb": "^2.0.0",
     "fs": "0.0.1-security",
     "jest": "^25.1.0",
