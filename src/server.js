@@ -1,7 +1,6 @@
 const app = require("./app");
+require('dotenv').config();
 
-// app.listen(8077, ()=> {
-//     console.log("tudo funfando no http://localhost:8077");
-//   });
+let port = process.env.PORT;
 
-app.listen(8087);
+app.listen(port || 8000 ) ;
